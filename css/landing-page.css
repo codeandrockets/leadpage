@@ -188,8 +188,14 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 40px 0;
     background-color: #f8f8f8;
+    text-align: center;
+}
+
+footer img {
+    height: 30px;
+    margin: 20px 10px;
 }
 
 p.copyright {
@@ -212,8 +218,9 @@ p.copyright {
 }
 
 #frontpage {
-    background-image: url('../img/intro-bg.jpg');
+    background-image: url('../img/intro-bg9.jpg');
     background-size: cover;
+    /*background-position: right; */
 }
 
 #calltoaction p{
