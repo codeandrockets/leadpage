@@ -123,10 +123,15 @@ h6 {
     border-top: 3px solid #e7e7e7;
 }
 
+.bannerbg {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 5%;
+}
+
 .banner {
-    padding: 100px 0;
+    /*padding: 100px 0;*/
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/clay.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -216,3 +221,18 @@ p.copyright {
     margin: 0 10px;
 }
 
+.formsub {
+    font-size: 20px;
+}
+
+.banner label {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.action {
+    margin-top: 20px;
+    background-color: #e36d00;
+    color: #333333;
+    width: 15%;
+}
