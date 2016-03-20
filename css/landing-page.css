@@ -23,10 +23,25 @@ h6 {
     font-weight: 700;
 }
 
+.navbar-default .navbar-nav li a {
+    color: #e5e5e5;
+    margin-top: 15px;    
+}
+
 .topnav {
     font-size: 18px;
     background: none;
     margin-top: 0px; 
+}
+
+.callcopy {
+    margin-top: 30px;
+    color: #e5e5e5;
+    text-align: center;
+}
+
+.applogo {
+    width: 150px;
 }
 
 .lead {
@@ -185,14 +200,18 @@ p.copyright {
 }
 
 #calltoaction p{
-  padding: 1%;
+  padding: 2%;
   text-align: center;
   border: 3px  #333333;
   color: #333333;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 300px;
-  margin: 20px auto;
+  margin: 40px auto;
   background-color: #e36d00;
+  font-size: 1.1em;
+  font-weight: 2000;
 }
 
-
+.callcopy img{
+    margin: 0 10px;
+}
