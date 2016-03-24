@@ -21,6 +21,11 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="js/script.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -50,7 +55,7 @@
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-right" id="getit">
                             <li>
                                 <a href="#services">About Us</a>
                             </li>
@@ -98,9 +103,9 @@
             <div class="row frontcontent">
                 <div class="col-lg-7 col-sm-6 callcopy">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Get found by Xplorers wanting to support local crafters, artists, creators and producers.</h2>
-                    <p class="lead">Share your story with the World, including your events, latest news and photos. Sign up and connect with buyers like never before. A mobile app, created by handcrafters, for handcrafters, because we understand and know your market!</p>
-                    <span id="calltoaction"><p>SIGN UP TO GET STARTED</p></span>
+                    <h2 class="section-heading fade-in one">Get found by Xplorers wanting to support local crafters, artists, creators and producers.</h2>
+                    <p class="lead fade-in two">Share your story with the World, including your events, latest news and photos. Sign up and connect with buyers like never before. A mobile app, created by handcrafters, for handcrafters, because we understand and know your market!</p>
+                    <a href="" <span id="calltoaction"><p>SIGN UP TO GET STARTED</p></span></a>
                     <img class="applogo" src="img/play.png" alt="">
                     <img class="applogo" src="img/store.png" alt="">
                 </div>
@@ -115,101 +120,91 @@
     </div>
     <!-- /.content-section-a -->
     </div>
+        <div class="content-section-b">
+           <div class="container">
+                <div class="row secondrow">
+                    <div class="col-lg-5  col-sm-push-6  col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading fade-in three">We put you in front of lovers of all things handcrafted</h2>
+                        <p class ="lead">Welcome to Xplore Handcrafted, where lovers of everything handcrafted meet and find the creative hands and minds behind the beautiful products.</p>
+                        <p class="lead">Xplore Handcrafted is so much more than a website! It is the 'go-to' place to Explore, Discover and Support local. It is where we realise how much amazing talent we have on our doorstep and how buying bespoke truly is just as easy as walking into a shop or shopping mall.</p>
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-6 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/sidephone.png" alt="">
+                    </div>
+                </div>
 
-    <div class="content-section-b">
-       <div class="container">
-            <div class="row secondrow">
-                <div class="col-lg-5  col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">We put you in front of lovers of all things handcrafted</h2>
-                    <p class ="lead">Welcome to Xplore Handcrafted, where lovers of everything handcrafted meet and find the creative hands and minds behind the beautiful products.</p>
-                    <p class="lead">Xplore Handcrafted is so much more than a website! It is the 'go-to' place to Explore, Discover and Support local. It is where we realise how much amazing talent we have on our doorstep and how buying bespoke truly is just as easy as walking into a shop or shopping mall.</p>
-                </div>
-                <div class="col-lg-offset-1 col-lg-6 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/sidephone.png" alt="">
-                </div>
             </div>
+            <!-- /.container -->
 
         </div>
-        <!-- /.container -->
+        <!-- /.content-section-b -->
 
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Share your Stories and Newest Creations</h2>
-                    <p class="lead">This is where craft/art/produce/food and drink trails can be individually created, to suit your taste and style. Where you can meet the person behind the handcrafted goodness and hear the story about what inspires, motivates and encourages them to continue to create and surprise you with each visit.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                    <img class="img-responsive" src="img/landscape.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Put Your Events on The Map</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/macfront.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-        </div>
-    <!-- /.content-section-b -->
-
-        <div class="supportbanner">
+        <div class="content-section-a ">
 
             <div class="container">
 
                 <div class="row">
-                    <div class="col-lg-6">
-                        <h3>By Signing Up, You Support A Local Crafter in Africa</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="col-lg-6 col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading hideme">Share your Stories and Newest Creations</h2>
+                        <p class="lead hideme">‘This is your opportunity to share your passion, including photos explains visually what you create from the heart.
+                         Why limit yourself to one platform or social media account, link them all here. Let the explorers choose which way they prefer to reach you - no more missing anyone’</p>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                        <img class="img-responsive" src="img/landscape.png" alt="">
                     </div>
                 </div>
 
+            </div>
+            <!-- /.container -->
+
         </div>
-        <!-- /.container -->
+        <!-- /.content-section-a -->
 
-    </div>
-    <!-- /.banner -->
+        <div class="content-section-b">
 
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                        <hr class="section-heading-spacer">
+                        <div class="clearfix"></div>
+                        <h2 class="section-heading hideme">Put Your Events on The Map</h2>
+                        <p class="lead hideme">Where event organisers can list their events, including links to stall application forms, contact and websites, but uniquely to Xplore Handcrafted links to all the handcrafters that will be exhibiting their beautiful wares. Attracting buyers has never been more exciting!.</p>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/macfront.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+            </div>
+        <!-- /.content-section-b -->
+
+            <div class="supportbanner">
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-6 ">
+                            <h3 class="hideme">By Signing Up, You Support A Local Crafter in Africa</h3>
+                            <p class="hideme">Handcrafters in rural South Africa are often the sole income earner in the family. Xplore Handcrafted, with your support and generosity, will help these wonderfully talented people, to not only support their families, but to grow and enrich their communities. For every 35 handcrafters that sign up, 1 rural maker will receive a smartphone, a kick-starter airtime top-up and a year free on the website and mobile app. Handcrafters helping handcrafters to bring their products to buyers like never before. You will be giving them the opportunity to compete in an ever evolving technology driven world, while they remain true to their culture and heritage..</p>
+                        </div>
+                        <div class="col-lg-6">
+                        </div>
+                    </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.banner -->
+ 
     <div class="banner">
     <div class="bannerbg">
 
@@ -221,18 +216,18 @@
             <h3>Australia and South Africa launching soon!!</h3>
         </div>    
 
-    <div class="col-lg-8 col-lg-offset-1 col-sm-6">
-    <form id="Form_Form" action="/home/Form" method="post" enctype="application/x-www-form-urlencoded" class="formcontrol">      
+    <div class="col-lg-8 col-lg-offset-1 col-sm-6 ">
+    <form id="Form_Form" action="/home/Form" method="post" enctype="application/x-www-form-urlencoded" class="formcontrol ">      
         <div id="FirstName" class="field text">
             
-            <div class="middleColumn ">
-                <label class="left form-group" for="Form_Form_FirstName">First Name</label>
+            <div class="middleColumn hideme">
+                <label class="left form-group " for="Form_Form_FirstName">First Name</label>
                 <input type="text" name="FirstName" class="text form-control " id="Form_Form_FirstName" required="required" aria-required="true" placeholder="What is your first name?" />
             </div>
         </div>
 
         
-        <div id="Surname" class="field text">  
+        <div id="Surname" class="field text hideme">  
             <div class="middleColumn">
                 <label class="left form-group" for="Form_Form_Surname">Surname</label>
                 <input type="text" name="Surname" class="text form-control" id="Form_Form_Surname" required="required" aria-required="true" placeholder="What is your last name?" />
@@ -240,7 +235,7 @@
         </div>
 
         
-        <div id="Email" class="field email text">
+        <div id="Email" class="field email text hideme">
             <label class="left form-group" for="Form_Form_Email">Email</label>
             <div class="middleColumn">
                 <input type="email" name="Email" class="email text form-control" id="Form_Form_Email" required="required" aria-required="true" placeholder="What is your email?" />
@@ -250,14 +245,14 @@
         
         <div id="Password" class="field confirmedpassword nolabel">
             <div class="middleColumn">
-                <div id="Password[_Password]" class="field text password">
+                <div id="Password[_Password]" class="field text password hideme">
             <label class="left form-group" for="Password-_Password">Password</label>
             <div class="middleColumn">
                     <input type="password" name="Password[_Password]" class="text password form-control" id="Password-_Password" autocomplete="off" placeholder="password" />
             </div>        
                 </div>
 
-            <div id="Password[_ConfirmPassword]" class="field text password">
+            <div id="Password[_ConfirmPassword]" class="field text password hideme">
                 <label class="left form-group" for="Password-_ConfirmPassword">Confirm Password</label>
                 <div class="middleColumn">
                     <input type="password" name="Password[_ConfirmPassword]" class="text password form-control" id="Password-_ConfirmPassword" autocomplete="off" placeholder="password" />
@@ -267,7 +262,7 @@
         </div>
 
         
-        <div id="AboutUsSource" class="field text">
+        <div id="AboutUsSource" class="field text hideme">
             <label class="left form-group " for="Form_Form_AboutUsSource">Where did you hear about us?</label>
             <div class="middleColumn">
                 <input type="text" name="AboutUsSource" class="text form-control" id="Form_Form_AboutUsSource" />
