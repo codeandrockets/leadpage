@@ -324,18 +324,11 @@ p.copyright {
     height: 150px;
 }
 
+
 #templatenav a {
     margin-top: 40px;
     font-size: 1em;
-    color: #333;
-}
-
-#templatecontent {
-    margin: 20px auto 0px auto;
-    width: 70%;
-    height: 100%;
-    background-color: #fff;
-    font-weight: 0;
+    color: #fff;
 }
 
 #templatelogo {
@@ -343,8 +336,28 @@ p.copyright {
 }
 
 
+#fronttemplate {
+}
 
+#bgvid {
+    width: 100%;
+    margin-top: -300px;
+    position: fixed;
+}
 
+#templatenav {
+    background-color: rgba(0 , 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    height: 150px;
+
+}
+
+#templatecontent {
+    margin: 550px auto 0;
+    height: 1700px;
+    background-color: #fff;
+}
 
 
 
