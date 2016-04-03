@@ -22,6 +22,10 @@ h6 {
     font-weight: 700;
 }
 
+li {
+     list-style-type: none;
+}
+
 .navbar-default .navbar-nav li a {
     color: #e5e5e5;
     margin-top: 15px;    
@@ -316,14 +320,35 @@ p.copyright {
   animation-delay: 1.6s;
 }
 
-/***************     Page Layout     ***********************/
+/*Addition  Css*/
 
-
-/*.firstsection {
-    height: 300px;
-    background-image: url('../img/about2.jpg');
-    background-size: cover;
+/*ol,ul {
+    list-style:none;
 }*/
+q:before,q:after {
+    content:'';
+}
+
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+    .container > header{
+        text-align: center;
+    }
+    p.codrops-demos {
+        position: relative;
+        top: auto;
+        left: auto;
+    }
+}
+
+/***************     Page Layout     ***********************/
 
 
 .cb-slideshow,
@@ -333,7 +358,8 @@ p.copyright {
     height: 50%;
     top: 0px;
     left: 0px;
-    z-index: 0; 
+    z-index: 0;
+    background-color: #000;
 }
 
 .cb-slideshow li span { 
@@ -349,11 +375,11 @@ p.copyright {
     opacity: 0;
     z-index: 0;
     -webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s; 
+    -webkit-animation: imageAnimation 30s linear infinite 0s;
+    -moz-animation: imageAnimation 30s linear infinite 0s;
+    -o-animation: imageAnimation 30s linear infinite 0s;
+    -ms-animation: imageAnimation 30s linear infinite 0s;
+    animation: imageAnimation 30s linear infinite 0s; 
 }
 .cb-slideshow li div { 
     z-index: 1000;
@@ -372,12 +398,12 @@ p.copyright {
 }
 .cb-slideshow li div h3 { 
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-    font-size: 240px;
+    font-size: 140px;
     padding: 0;
     line-height: 200px; 
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../img/about.jpeg) 
+    background-image: url(../img/about.jpeg); 
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url(../img/about1.jpeg);
@@ -404,14 +430,21 @@ p.copyright {
     animation-delay: 18s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image: url(../img/about4.jpg);
+    background-image: url(../img/about4.jpeg);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
     -ms-animation-delay: 24s;
     animation-delay: 24s; 
 }
-
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(../img/about3.jpeg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s; 
+}
 .cb-slideshow li:nth-child(2) div { 
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
