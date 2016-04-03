@@ -23,7 +23,7 @@ h6 {
 }
 
 li {
-     list-style-type: none;
+    list-style: none;
 }
 
 .navbar-default .navbar-nav li a {
@@ -341,24 +341,23 @@ q:before,q:after {
     .container > header{
         text-align: center;
     }
-    p.codrops-demos {
-        position: relative;
-        top: auto;
-        left: auto;
-    }
+
 }
 
 /***************     Page Layout     ***********************/
 
+.layoutnav {
+    position: fixed;
+}
 
 .cb-slideshow,
 .cb-slideshow:after { 
     position: fixed;
     width: 100%;
-    height: 50%;
+    height: 400px;
     top: 0px;
     left: 0px;
-    z-index: 0;
+    z-index: -1;
     background-color: #000;
 }
 
@@ -575,11 +574,31 @@ q:before,q:after {
 }
 
 
+#pagebody {
+    position: static;
+    margin-top: 440px;
+    background-color: #fff;
+    width: 100%;
+
+}
+
+#pagebody p {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+#templatefooter {
+    padding: 0;
+    max-width: 100%;
+}
 
 
 
-
-
+.supportbox {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
