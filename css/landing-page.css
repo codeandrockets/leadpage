@@ -597,14 +597,30 @@ q:before,q:after {
 
 
 .supportbox {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
+footer img {
+    height: 70px;
+}
 
+.footerbutton {
+  padding: 1%;
+  text-align: center;
+/*  border: 3px  #333333;*/
+  color: #333333;
+  border-radius: 10px;
+  width: 200px;
+  margin: 20px;
+  background-color: #e36d00;
+  font-size: 1.1em;
+  float: left;
+}
 
-
-
+.row {
+    margin: 0;
+}
 
 
 
