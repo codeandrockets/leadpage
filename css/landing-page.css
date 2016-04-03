@@ -185,6 +185,10 @@ li {
         margin-top: 15px;
     }
 
+    #submitform {
+        width: 30%;
+    }
+
 }
 
 @media(max-width:767px) {
@@ -205,6 +209,12 @@ li {
     }
 
 
+}
+
+@media(max-width: 546px) {
+    .supportbox {
+    margin-top: -90px;
+    }
 }
 
 footer {
@@ -583,8 +593,9 @@ q:before,q:after {
 }
 
 #pagebody p {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    text-align: left;
 
 }
 
