@@ -28,9 +28,6 @@ function anim() {
     $("#wrap img.bgfade").first().appendTo('#wrap').fadeOut(1500);
     $("#wrap img").first().fadeIn(1500);
     setTimeout(anim, 3000);
-
-
-
 }
 anim();})
 $(window).resize(function(){window.location.href=window.location.href});

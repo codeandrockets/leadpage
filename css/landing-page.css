@@ -386,7 +386,11 @@ q:before,q:after {
 
 #pagebody h2 {
     position: absolute;
-    top: -80px;
+    top: -190px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    z-index: -1;
 }
 
 #layoutnav {
