@@ -117,6 +117,21 @@ li {
     }
 }
 
+#dropdownMenu1 {
+    width: 100%;
+}
+
+.menuitem {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menuitem img {
+    height: 40px;
+    margin-right: 10px;
+}
+
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -431,6 +446,29 @@ footer img {
      width: 60%;
        margin: 0 auto;
     }
+}
+
+@media(max-width: 766px) {
+    nav {
+        z-index: 1;
+        background-color: #333;
+    }
+
+    nav ul {
+    background-color: #333;
+    width: 100%;
+    float: right;
+    }
+
+    nav li {
+         width: 80%;
+         margin: 0 auto;
+    }
+
+    #getit {
+        width: 300px;
+    }
+
 }
 
 
