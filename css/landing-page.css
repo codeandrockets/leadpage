@@ -117,6 +117,13 @@ li {
     }
 }
 
+@media(max-width:402px) {
+    
+    #googleicon {
+        margin-bottom: 20px;
+    }
+}
+
 #dropdownMenu1 {
     width: 100%;
 }
@@ -429,6 +436,18 @@ q:before,q:after {
     }
 }
 
+@media(max-width: 350px) {
+    .supportbanner {
+    height: 800px;  
+    }
+}
+
+@media(max-width: 301px) {
+    .supportbox {
+    margin-top: -80px;  
+    }
+}
+
 /***************     Footer    ***********************/
 
 
@@ -468,6 +487,7 @@ footer img {
        margin: 0 auto;
     }
 }
+
 
 @media(max-width: 766px) {
     nav {
