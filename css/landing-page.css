@@ -26,6 +26,10 @@ li {
     list-style: none;
 }
 
+.topnav {
+    background-color: #000;
+}
+
 .navbar-default .navbar-nav li a {
     color: #e5e5e5;
     margin-top: 15px;    
@@ -389,8 +393,10 @@ q:before,q:after {
     top: -190px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 120px;
+    font-size: 100px;
     z-index: -1;
+    color: #e06d06;
+    text-shadow: 2px 3px 4px #333;
 }
 
 #layoutnav {
@@ -429,6 +435,13 @@ footer img {
     margin: 0;
 }
 
+@media(max-width: 1200px) {
+    .footerbuttons {
+       text-align: center;
+        width: 600px;
+        margin: 0 auto;
+    }
+}
 
 
 

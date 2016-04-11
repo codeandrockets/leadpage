@@ -22,18 +22,8 @@ $(document).ready(function() {
     
 });
 
-$(window).load(function(){
-$('img.bgfade').hide();
-function anim() {
-    $("#wrap img.bgfade").first().appendTo('#wrap').fadeOut(1500);
-    $("#wrap img").first().fadeIn(1500);
-    setTimeout(anim, 3000);
-}
-anim();})
-$(window).resize(function(){window.location.href=window.location.href});
 
-
-var terms = ["Xplore", "Discover", "Find", "Tresure"];
+var terms = ["Explore ", "Discover", "Support"];
 
 function rotateTerm() {
   var ct = $("#rotate").data("term") || 0;
