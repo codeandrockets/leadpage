@@ -12,14 +12,22 @@
 
     <title>Xplore Handcrafted</title>
 
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
-    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+    </script>
 
     <script src="js/script.js"></script>
 
@@ -256,7 +264,23 @@
                 <input type="email" name="Email" class="email text form-control" id="Form_Form_Email" required="required" aria-required="true" placeholder="What is your email?" />
             </div> 
         </div>
-     
+
+        <div class="dropdown field text hideme">
+            <label class="left form-group" for="Form_Form_Email">Choose Your Country</label>
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Select Country
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </div>
+
+        
         <div id="Password" class="field confirmedpassword nolabel">
             <div class="middleColumn">
                 <div id="Password[_Password]" class="field text password hideme">
@@ -308,8 +332,10 @@
                     <img src="img/instagram.png" alt="instagram">
                 </div>
                 <div class="col-lg-6">
-                    <a href="#" <span class="footerbutton"><p>User Guide - Mobile App</p></span></a>
-                    <a href="#" <span class="footerbutton"><p>Terms and Conditions</p></span></a>
+                    <div id="footerbuttons">
+                        <a href="#" <span class="footerbutton"><p>User Guide - Mobile App</p></span></a>
+                        <a href="#" <span class="footerbutton"><p>Terms and Conditions</p></span></a>
+                    </div>
                 </div>
             </div>
         </div>

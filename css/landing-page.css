@@ -428,7 +428,7 @@ footer img {
 
 @media(max-width: 510px) {
     #footerbuttons {
-     width: 50%;
+     width: 60%;
        margin: 0 auto;
     }
 }
