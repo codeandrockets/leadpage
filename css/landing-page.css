@@ -405,12 +405,32 @@ q:before,q:after {
     position: fixed;
 }
 
+.supportbox {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;   
+}
+
+@media(max-width: 580px) {
+    .supportbox {
+    margin-top: -60px;   
+    }
+}
+
+@media(max-width: 505px) {
+    .supportbanner {
+    height: 600px;  
+    }
+}
+
+@media(max-width: 393px) {
+    .supportbanner {
+    height: 700px;  
+    }
+}
 
 /***************     Footer    ***********************/
 
-.supportbox {
-    background-color: rgba(0, 0, 0, 0.7);
-}
+
 
 
 footer img {
