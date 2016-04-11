@@ -420,10 +420,16 @@ footer img {
 }
 
 @media(max-width: 1200px) {
-    .footerbuttons {
-       text-align: center;
-        width: 600px;
-        margin: 0 auto;
+    #footerbuttons {
+       display: inline-block;
+       margin: 0 auto;
+    }
+}
+
+@media(max-width: 510px) {
+    #footerbuttons {
+     width: 50%;
+       margin: 0 auto;
     }
 }
 
